@@ -1,0 +1,41 @@
+.admin-container {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.hotel-section {
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.room-section {
+  background: #e0f0ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hotel-card {
+  background: #ffb6c1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.room-card {
+  background: #87cefa;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
