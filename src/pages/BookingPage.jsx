@@ -42,7 +42,7 @@ function BookingPage() {
       setLoading(true);
 
       // 🔐 Check Login by calling secure endpoint
-      await axios.get("http://localhost:9090/api/auth/me", {
+      await axios.get(import.meta.env.VITE_API_URL, {
         withCredentials: true
       });
 
@@ -55,7 +55,7 @@ function BookingPage() {
     try {
 
       const res = await axios.post(
-        "http://localhost:9090/api/payment/create-order",
+        import.meta.env.VITE_API_URL,
         {
           roomId,
           checkInDate: checkIn,
