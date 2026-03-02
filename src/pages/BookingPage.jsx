@@ -42,7 +42,7 @@ function BookingPage() {
       setLoading(true);
 
       // 🔐 Check Login by calling secure endpoint
-      await axios.get(import.meta.env.VITE_API_URL, {
+      await axios.get("http://localhost:9090/api/auth/me", {
         withCredentials: true
       });
 
